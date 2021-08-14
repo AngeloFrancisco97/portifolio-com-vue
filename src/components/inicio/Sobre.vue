@@ -5,9 +5,9 @@
             <v-row dense>
                 <v-col lg="4" md="4" sm="4">
                 <v-avatar class="ma-3 d-flex flex-column" size="auto" tile>
-                    <v-img v-if="user.foto_descricao" :src="'http://angelofrancisco.site/storage/'+user.foto_descricao"></v-img>
+                    <v-img v-if="user.foto_descricao" :src="'https://angelofrancisco.site/storage/'+user.foto_descricao"></v-img>
                     <v-card-actions>
-                        <v-btn class="ml-2 mt-3" target="_blank" :href="'http://angelofrancisco.site/storage/'+user.curriculo">
+                        <v-btn class="ml-2 mt-3" target="_blank" :href="'https://angelofrancisco.site/storage/'+user.curriculo">
                         Curriculo
                         </v-btn>
 
