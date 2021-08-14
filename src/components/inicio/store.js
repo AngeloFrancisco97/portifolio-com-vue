@@ -88,7 +88,7 @@ export default({
 
     //Actions Conhecimentos
     visualizarInformacoes({commit, state}, {dados, rota}) {
-        axios.get(state.urlInformacoes+ '/' + dados.id)
+        axios.get(state.urlUsuario+ '/' + dados.id)
                   .then(response => {
                     const informacao = response.data
                     commit('setInformacoes', informacao)

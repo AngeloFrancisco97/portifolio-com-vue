@@ -63,7 +63,6 @@ export default {
             return this.$store.getters.token
         },
         conhecimentos(){
-            console.log(this.$store.getters.conhecimentos)
             return this.$store.getters.conhecimentos
         },
         // projetosTable(){

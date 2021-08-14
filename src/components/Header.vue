@@ -29,7 +29,7 @@
         <v-img
             class="white--text align-end imgFixed"
             height="500px"
-            src="http://127.0.0.1:8000/storage/imagens/backgroundProgramador.jpg"
+            src="https://angelofrancisco.site/storage/imagens/backgroundProgramador.jpg"
             dark
             >
             <v-card-title class="d-flex flex-column justify-center" style="padding-bottom:100px" >

@@ -65,7 +65,6 @@ export default {
             return this.$store.getters.token
         },
         telasProjeto(){
-            console.log(this.$store.getters.projeto)
             return this.$store.getters.projeto
         },
         // projetosTable(){
